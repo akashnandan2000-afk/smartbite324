@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 50" fill="none">
+  <defs>
+    <linearGradient id="sbLeaf" x1="10" y1="5" x2="40" y2="45" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#34d399"/>
+      <stop offset="1" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="sbOrange" x1="30" y1="8" x2="45" y2="35" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fb923c"/>
+      <stop offset="1" stop-color="#ea580c"/>
+    </linearGradient>
+    <linearGradient id="sbBg" x1="0" y1="0" x2="46" y2="46" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#064e3b"/>
+      <stop offset="1" stop-color="#022c22"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Logo Mark Squircle -->
+  <rect x="2" y="2" width="44" height="44" rx="12" fill="url(#sbBg)" stroke="#047857" stroke-width="1.5"/>
+  <circle cx="24" cy="24" r="18" stroke="url(#sbLeaf)" stroke-width="1.2" stroke-dasharray="3 2" stroke-opacity="0.4"/>
+  <path d="M24 10C24 10 33 14 33 23C33 28 29.5 32 24 33.5C18.5 32 15 28 15 23C15 14 24 10 24 10Z" fill="url(#sbLeaf)"/>
+  <path d="M24 13C28 16.5 29 21 27 24.5C25 28 20 29 16.5 26.5C17.5 19 22 14.5 24 13Z" fill="#022c22" fill-opacity="0.35"/>
+  <circle cx="31" cy="15" r="3.5" fill="url(#sbOrange)"/>
+  <path d="M17 36C21 39 27 39 31 36" stroke="url(#sbOrange)" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Logo Text -->
+  <text x="56" y="28" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="900" fill="#064e3b" letter-spacing="-0.5">Smart</text>
+  <text x="105" y="28" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="900" fill="#ea580c" letter-spacing="-0.5">Bite</text>
+  <circle cx="145" cy="23" r="2.5" fill="#10b981"/>
+  <text x="56" y="39" font-family="system-ui, -apple-system, sans-serif" font-size="7.5" font-weight="700" fill="#047857" letter-spacing="0.8">CAMPUS DINING</text>
+</svg>
+
